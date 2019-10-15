@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\csharp.learn.automapper\csharp.learn.automapper.csproj" />
+    <ProjectReference Include="..\csharp.learn\csharp.learn.csproj" />
   </ItemGroup>
 
 </Project>
