@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp.learn", "csharp.learn\csharp.learn.csproj", "{8F3FB5C5-E0DC-4EA6-8FFA-2A6019EB87C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csharp.learn", "csharp.learn\csharp.learn.csproj", "{8F3FB5C5-E0DC-4EA6-8FFA-2A6019EB87C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp.learn.automapper", "csharp.learn.automapper\csharp.learn.automapper.csproj", "{A7623863-4865-427D-862C-4AE3C750636F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csharp.learn.automapper", "csharp.learn.automapper\csharp.learn.automapper.csproj", "{A7623863-4865-427D-862C-4AE3C750636F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "charp.learn.reflection", "charp.learn.reflection\charp.learn.reflection.csproj", "{DC8A9FA7-1FC6-486C-B0A0-093BE5D6B26B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "charp.learn.reflection", "charp.learn.reflection\charp.learn.reflection.csproj", "{DC8A9FA7-1FC6-486C-B0A0-093BE5D6B26B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp.learn.UnitTests", "csharp.learn.UnitTests\csharp.learn.UnitTests.csproj", "{8A405C5F-CEF4-4576-BD2E-DD0F537A343E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csharp.learn.UnitTests", "csharp.learn.UnitTests\csharp.learn.UnitTests.csproj", "{8A405C5F-CEF4-4576-BD2E-DD0F537A343E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp.learn.async", "csharp.learn.async\csharp.learn.async.csproj", "{D63D1D5A-0E90-4B11-A50D-97D4C0D76395}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{8A405C5F-CEF4-4576-BD2E-DD0F537A343E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A405C5F-CEF4-4576-BD2E-DD0F537A343E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A405C5F-CEF4-4576-BD2E-DD0F537A343E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D63D1D5A-0E90-4B11-A50D-97D4C0D76395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D63D1D5A-0E90-4B11-A50D-97D4C0D76395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D63D1D5A-0E90-4B11-A50D-97D4C0D76395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D63D1D5A-0E90-4B11-A50D-97D4C0D76395}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

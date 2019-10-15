@@ -46,6 +46,9 @@ namespace csharp.learn.PatternMatch
             {
                 resultString = $"{alumnus.AlumnusDetails().fullName} has completed {alumnus.AlumnusDetails().degreeObtained} in {alumnus.AlumnusDetails().yearCompleted}";
             }
+            else if (someperson is var _) {
+                resultString = $"Invalid {nameof(someperson)} object passed.";
+            }
 
             return resultString;
         }
@@ -66,6 +69,9 @@ namespace csharp.learn.PatternMatch
                 case Alumnus alumnus:
                     resultString = $"{alumnus.AlumnusDetails().fullName} has completed {alumnus.AlumnusDetails().degreeObtained} in {alumnus.AlumnusDetails().yearCompleted}";
                     break;
+                case var _:
+                    resultString = $"Invalid {nameof(someperson)} object passed.";
+                    break;
             }
 
             return resultString;
@@ -84,8 +90,9 @@ namespace csharp.learn.PatternMatch
                     return $"{exchangeStudent.ExchangeStudentDetails().fullName}";
                 case null:
                     return $"{nameof(someperson)} cannot be null";
+                case var _:
+                    return $"Invalid {nameof(someperson)} object passed.";
             }
-            return "";
         }
 
     }
